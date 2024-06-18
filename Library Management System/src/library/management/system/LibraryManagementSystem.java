@@ -21,6 +21,7 @@ public class LibraryManagementSystem {
         System.out.println("2. SignUp");
         int number=scanner.nextInt();
         System.out.println(number);
+        System.out.println("SS");
     }
     
 }

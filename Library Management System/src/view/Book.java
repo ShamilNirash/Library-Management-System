@@ -41,7 +41,7 @@ public class Book extends javax.swing.JFrame {
         bookUpdateBtn = new javax.swing.JButton();
         bookDeleteBtn = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        bookTable = new javax.swing.JTable();
 
         jLabel3.setText("jLabel3");
 
@@ -183,7 +183,7 @@ public class Book extends javax.swing.JFrame {
                 .addGap(22, 22, 22))
         );
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        bookTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -191,7 +191,7 @@ public class Book extends javax.swing.JFrame {
                 "Book Id", "Book Name", "Author Name", "Is Available"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(bookTable);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -292,6 +292,7 @@ public class Book extends javax.swing.JFrame {
     private javax.swing.JButton bookDeleteBtn;
     private javax.swing.JTextField bookNameTxt;
     private javax.swing.JButton bookSaveBtn;
+    private javax.swing.JTable bookTable;
     private javax.swing.JButton bookUpdateBtn;
     private javax.swing.JTextField isAvailableTxt;
     private javax.swing.JLabel jLabel1;
@@ -302,6 +303,5 @@ public class Book extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }
